@@ -1,0 +1,15 @@
+# notype - 依賴清單
+
+# 音訊錄製
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# 全域快捷鍵
+pynput>=1.7.6
+
+# API 客戶端
+openai>=1.30.0          # OpenAI + Groq（相容介面）
+anthropic>=0.28.0       # Anthropic Claude（選用）
+
+# 簡轉繁
+opencc-python-reimplemented>=0.1.7
